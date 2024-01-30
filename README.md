@@ -8,4 +8,6 @@
 * Crear ramas 
 * Combinar ramas 
 * Gestionar ramas 
-* xd
+* Restaurar cambios 
+* Resolver conflictos 
+
