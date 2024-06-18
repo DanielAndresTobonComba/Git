@@ -1,0 +1,9 @@
+
+:q !
+para salir de vi 
+
+esc :set nu! 
+para enumerar las lineas 
+
+:wq! 
+para guardar y salir 

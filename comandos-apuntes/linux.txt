@@ -1,0 +1,71 @@
+
+echo "texto"
+Para hacer un print en la consola de un texto
+
+nano "nombreArchivo"
+para abrir en el editor y crear una rchivo ,si esxiste abre el archivo 
+
+vi "nombreArchivo"
+para acceder al editor vi  y se sale con :q!
+
+
+
+
+
+Para ejecutar el programa se usa bash y el nombre del archivo 
+
+Para obtener los dtos de un archivo se usa ls -l y el nombre del archivo 
+
+
+CHMOD +x "nombreArchivo"
+PARA CAMBIAR LOS PERMISOS A EJECUCION con esto podemos ejecutar un archivo con ./ y el nombre del archivo
+
+Con w una sabe quien esta conectado en su equipo
+
+
+CAT 
+
+cat "nombreArchivo" 
+para visualizar un archivo 
+
+cat -b el numero de lienas de un codigo 
+cat -n numera todas las lineas contando espacio 
+cat -s reduce las lineas adyacentes sin contenido 
+cat -v nos muestra caracteres no imprimibles
+
+
+mkdir 
+para crear un directorio
+
+cp 
+para copiar un archivo
+
+ls 
+para listar los datos 
+
+rm -i 
+para remover archivos y esto me pregunta si esto seguro
+
+para guardar debe ser > y nombre del archivo
+
+para agrear como un append se usa >> y nombre del archivo 
+
+filtrar 
+
+ls ?????.css*
+
+Para saber los datos se usa wc y nombre el archivo me retorna los datos : 
+lineas - palabras - bytes o caracteres
+
+obtener datos desde el comienzo del archivo: 
+se usa head  -3 disco.txt 
+esto dara las primeras tres lineas 
+
+con tail se usa la misma sintaxis que head y me retorna las ultimas lineas de codigo 
+
+para obtener las lineas que contengan algo en especifico 
+grep -e "tmpsf" nombre del archivo 
+
+
+para renombrar un archivo  se usa mv el nombre de archivo + el nuevo nombre del archivo
+

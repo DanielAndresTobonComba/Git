@@ -1,0 +1,73 @@
+
+git status 
+para saber el status de git 
+
+git config --list 
+me da los datos globales del usuario logueado
+
+history
+para acceder a los comandos 
+
+nano ~/.gitconfig 
+para acceder a los datos del  usuario y modificarlos de otra forma 
+
+
+git config --global user.name 
+para saber el nomrbe de usuario 
+
+git config --global user.email 
+para saber el correo de la persona 
+
+git config --global core.editor "code --wait" es visual estudio y hara el commit del codigo cuando cierre el visual studio 
+
+
+git init 
+para inicializar un repositorio 
+
+git config --global init.defaultBranch <name> 
+para asignar el nombre por defecto a la rama de los repositorios que cree
+
+ls -a 
+para obtener los archivos ocultos como lista
+
+ll 
+lista con todos los detalles 
+
+ls -la 
+lista con todos los detalles 
+
+code . 
+abre la carpeta en la que estoy en visual estudio code
+
+tree .git 
+para acceder al arbol de git
+
+git add "nombre archivo" 
+pasar un archivo del directorio al index
+
+git add . 
+para añadir todos los que esten en la misma carpeta
+
+
+git rm --cached "nombre del archivo"
+para bajar al workspace desde el index 
+
+
+git commit -m "coemntario"
+para subir desde el index hasta el directorio
+
+git commit -am "comentario"
+para agregar desde workspace hasta el directorio
+
+git log 
+nos dara los commits realizados con los datos de la persona que hizo cuando lo hizo y desde que correo 
+
+git log --oneline 
+para saber que commit se hicieron de forma mas simple con sus codigos 
+
+git checkout "codigo del commit al que quiero acceder" 
+para acceder al archivo a un version pasado
+
+
+git checkout master 
+vuelvo a la version actual del archivo 
